@@ -1,0 +1,82 @@
+.header-main {
+  margin: 150px 0px 0px 150px;
+}
+nav {
+  margin-left: 1200px;
+}
+
+@media (max-width: 480px) {
+  .header-main {
+    width: 100%;
+    margin: 0;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  nav {
+    margin: 0;
+  }
+  nav ul {
+    justify-content: center;
+  }
+  .header-main .text {
+    width: 450px !important;
+    text-align: center;
+    padding-left: 10px;
+  }
+  .header-main .text h1 {
+    width: 100% !important;
+  }
+  .header-main .imgs {
+    margin-left: 0 !important;
+  }
+  .main-one .text {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .main-one .text p {
+    display: none;
+  }
+  .main-one {
+    padding: 0 !important;
+  }
+  .main-one .cards{
+    display: flex;
+    width: 100% !important;
+    margin-left: 300px !important;
+    flex-direction: column;
+    margin: 0 !important;
+    align-items: center !important;
+  }
+  .main-one .cards .one {
+    width: 400px !important;
+    margin: 0 !important;
+    margin-bottom: 30px !important;
+    padding-bottom: 20px !important;
+  }
+  .main-one .cards .one .ppp{
+    margin: 10px 0px  !important;
+  }
+  .main-two{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .main-two .texts{
+    text-align: center;
+  }
+  .main-two .cards .kard{
+    flex-direction: column;
+    margin: 0 auto !important;
+    justify-content: center !important;
+    margin-bottom: 20px !important;
+  }
+  .main-two .cards .kard img{
+    width: 400px !important;
+    display: block !important;
+    margin: 0 auto;
+  } 
+  .main-two .cards .kard .text{
+    width: 400px !important;
+    margin: 0 auto !important;
+  }
+}
