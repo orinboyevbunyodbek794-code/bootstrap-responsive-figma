@@ -4,6 +4,30 @@
 nav {
   margin-left: 1200px;
 }
+.blog-main {
+  padding-left: 200px;
+  margin-top: 70px;
+}
+.ps {
+  margin-right: 180px;
+  border-bottom: 1px solid rgb(76, 75, 75);
+}
+.work-main {
+  padding-left: 200px;
+  margin-top: 70px;
+  padding-right: 200px;
+}
+.work-main .cards .kard .text {
+  width: 600px;
+}
+.work-img {
+  display: block;
+  width: 350px;
+}
+.contact-main .text{
+  width: 920px;
+  margin: 100px 0px 40px 200px;
+}
 
 @media (max-width: 480px) {
   .header-main {
@@ -15,8 +39,51 @@ nav {
   nav {
     margin: 0;
   }
+  .contact-main .text{
+    margin: 0 !important;
+    max-width: 450px !important;
+    margin-left: 5px !important;
+  }
+   .contact-main .text .h1{
+    font-size: 30px !important;
+   }
+   .contact-main .text .lead{
+    font-size: 17px !important;
+   }
+  .text-img{
+    width: 400px !important;
+    margin:  0 auto;
+   }
+  .blog-main {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px !important;
+  }
+  .work-main {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .work-main .text .h11 {
+    text-align: center;
+  }
+  .work-main .cards .kard {
+    flex-direction: column;
+    max-width: 480px !important;
+  }
+  .work-main .cards .kard .text {
+    width: 400px !important;
+    margin: 0 auto !important;
+  }
+  .work-img {
+    width: 400px !important;
+    margin: 0 auto;
+  }
   nav ul {
     justify-content: center;
+  }
+  .ps {
+    margin: 0 !important;
   }
   .header-main .text {
     width: 450px !important;
@@ -40,7 +107,7 @@ nav {
   .main-one {
     padding: 0 !important;
   }
-  .main-one .cards{
+  .main-one .cards {
     display: flex;
     width: 100% !important;
     margin-left: 300px !important;
@@ -54,28 +121,28 @@ nav {
     margin-bottom: 30px !important;
     padding-bottom: 20px !important;
   }
-  .main-one .cards .one .ppp{
-    margin: 10px 0px  !important;
+  .main-one .cards .one .ppp {
+    margin: 10px 0px !important;
   }
-  .main-two{
+  .main-two {
     margin: 0 !important;
     padding: 0 !important;
   }
-  .main-two .texts{
+  .main-two .texts {
     text-align: center;
   }
-  .main-two .cards .kard{
+  .main-two .cards .kard {
     flex-direction: column;
     margin: 0 auto !important;
     justify-content: center !important;
     margin-bottom: 20px !important;
   }
-  .main-two .cards .kard img{
+  .main-two .cards .kard img {
     width: 400px !important;
     display: block !important;
     margin: 0 auto;
-  } 
-  .main-two .cards .kard .text{
+  }
+  .main-two .cards .kard .text {
     width: 400px !important;
     margin: 0 auto !important;
   }
