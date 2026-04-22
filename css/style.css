@@ -24,11 +24,19 @@ nav {
   display: block;
   width: 350px;
 }
-.contact-main .text{
+.contact-main .text {
   width: 920px;
   margin: 100px 0px 40px 200px;
 }
-
+.contact-main .text .lead {
+  font-size: 23px;
+  font-weight: 500;
+  margin: 20px 0px 20px 0px;
+}
+.main-two .text {
+  width: 920px;
+  margin: 100px 0px 40px 200px;
+}
 @media (max-width: 480px) {
   .header-main {
     width: 100%;
@@ -36,24 +44,33 @@ nav {
     flex-direction: column-reverse;
     text-align: center;
   }
+  .main-two .text{
+    width: 93% !important;
+  }
   nav {
     margin: 0;
   }
-  .contact-main .text{
+  .dddd{
     margin: 0 !important;
-    max-width: 450px !important;
+  }
+  .contact-main .text {
+    margin: 0 !important;
+    max-width: 93% !important;
     margin-left: 5px !important;
   }
-   .contact-main .text .h1{
+  .contact-main .text .h1 {
     font-size: 30px !important;
-   }
-   .contact-main .text .lead{
+  }
+  .contact-main .text .lead {
     font-size: 17px !important;
-   }
-  .text-img{
-    width: 400px !important;
-    margin:  0 auto;
-   }
+    margin: 0 !important;
+    margin-bottom: 50px;
+    display: block;
+  }
+  .text-img {
+    width: 83% !important;
+    margin: 0 auto;
+  }
   .blog-main {
     margin: 0 !important;
     padding: 0 !important;
@@ -69,14 +86,14 @@ nav {
   }
   .work-main .cards .kard {
     flex-direction: column;
-    max-width: 480px !important;
+    max-width: 100% !important;
   }
   .work-main .cards .kard .text {
-    width: 400px !important;
+    width: 83% !important;
     margin: 0 auto !important;
   }
   .work-img {
-    width: 400px !important;
+    width: 83% !important;
     margin: 0 auto;
   }
   nav ul {
@@ -86,7 +103,7 @@ nav {
     margin: 0 !important;
   }
   .header-main .text {
-    width: 450px !important;
+    width: 93% !important;
     text-align: center;
     padding-left: 10px;
   }
@@ -116,7 +133,7 @@ nav {
     align-items: center !important;
   }
   .main-one .cards .one {
-    width: 400px !important;
+    width: 83% !important;
     margin: 0 !important;
     margin-bottom: 30px !important;
     padding-bottom: 20px !important;
@@ -138,12 +155,12 @@ nav {
     margin-bottom: 20px !important;
   }
   .main-two .cards .kard img {
-    width: 400px !important;
+    width: 83% !important;
     display: block !important;
     margin: 0 auto;
   }
   .main-two .cards .kard .text {
-    width: 400px !important;
+    width: 83% !important;
     margin: 0 auto !important;
   }
 }
