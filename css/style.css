@@ -12,6 +12,10 @@ nav {
   margin-right: 180px;
   border-bottom: 1px solid rgb(76, 75, 75);
 }
+.main-one-index {
+  padding: 30px 150px;
+  background-color: rgba(237, 247, 250, 1);
+}
 .work-main {
   padding-left: 200px;
   margin-top: 70px;
@@ -44,13 +48,13 @@ nav {
     flex-direction: column-reverse;
     text-align: center;
   }
-  .main-two .text{
+  .main-two .text {
     width: 93% !important;
   }
   nav {
-    margin: 0;
+    margin: 0 !important;
   }
-  .dddd{
+  .dddd {
     margin: 0 !important;
   }
   .contact-main .text {
@@ -66,6 +70,11 @@ nav {
     margin: 0 !important;
     margin-bottom: 50px;
     display: block;
+  }
+  .main-one-index{
+    padding: 0 !important;
+
+
   }
   .text-img {
     width: 83% !important;
@@ -113,18 +122,18 @@ nav {
   .header-main .imgs {
     margin-left: 0 !important;
   }
-  .main-one .text {
+  .main-one-index .text {
     display: block !important;
     width: 100% !important;
     text-align: center !important;
   }
-  .main-one .text p {
+  .main-one-index .text p {
     display: none;
   }
-  .main-one {
+  .main-one-index {
     padding: 0 !important;
   }
-  .main-one .cards {
+  .main-one-index .cards {
     display: flex;
     width: 100% !important;
     margin-left: 300px !important;
@@ -132,13 +141,14 @@ nav {
     margin: 0 !important;
     align-items: center !important;
   }
-  .main-one .cards .one {
+  .main-one-index .cards .one {
     width: 83% !important;
     margin: 0 !important;
     margin-bottom: 30px !important;
-    padding-bottom: 20px !important;
+    padding: 0 !important;
+    padding: 20px !important;
   }
-  .main-one .cards .one .ppp {
+  .main-one-index .cards .one .ppp {
     margin: 10px 0px !important;
   }
   .main-two {
